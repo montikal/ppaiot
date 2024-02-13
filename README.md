@@ -2,7 +2,7 @@
 
 # Time Series Classification on Raspberry Pi using TensorFlow Lite
 
-*Reference to Lisa Ong Edge Computing*
+*Reference to Lisa Ong Edge Computing Workshop Materials*
 
 This example predicts a value using time series data from a Smart Factory.
 
