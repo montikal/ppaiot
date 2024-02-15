@@ -30,12 +30,8 @@ Documentation: https://www.tensorflow.org/lite/guide/inference#running_a_model
 ```
 ~/ppaiot/EdgeAnalytics
 ``` 
-2. From the WSL2 Ubuntu 22.04 or MacOS terminal, launch docker image containing Tensorflow 2.0 for Python 3.7
-```
-cd ~/ppaiot/EdgeAnalytics/docker
-sh ./launch_docker.sh
-```
-3. From the **docker container** running on the Raspberry Pi 3, evaluate the saved TF Lite model using inputs
+2. From the WSL2 Ubuntu 22.04 or MacOS terminal, launch the prepared conda environment and activate it.
+3. Evaluate the saved TF Lite model using inputs
 ```
 cd edge
 python3 evaluate.py input_file
